@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="autoFucntionTestV2.0_beta Suite" thread-count="1" verbose="1">
+
+	<listeners>
+		<listener class-name="com.lkpower.listener.CaseRetryListener"></listener>
+		<listener class-name="com.lkpower.listener.CaseCollectionListener"></listener>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+	</listeners>
+	
+	<test name="autoFucntionTestV2.0_beta-smokeTest">	
+		<groups>
+			<define name="smoke-test">
+				<include name="P0"></include>
+			</define>
+			
+			<define name="full-test">
+				<include name="P0"></include>
+				<include name="P1"></include>
+			</define>
+		
+			<run>
+				<include name="smoke-test"></include>
+			</run>			
+		</groups>
+		
+		
+		<classes>
+			<class name="com.lkpower.testcase.BaiduMainPageCase"></class>
+			<class name="com.lkpower.testcase.BaiduLoginPageCase"></class>
+		</classes>
+				
+	</test>
+	<test name="autoFunctionTest_v1.2_fullTest">
+		<classes>
+			<class name="com.lkpower.testcase.BaiduMainPageCase"></class>
+			<class name="com.lkpower.testcase.BaiduLoginPageCase"></class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="autoFucntionTestV2.0_beta-smokeTest"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.563">
+  <properties />
+  
+  
+            <testcase name="testOnlyPassword" time="0.285" classname="com.lkpower.testcase.BaiduLoginPageCase" />
+                <testcase name="testOnlyUsername" time="0.278" classname="com.lkpower.testcase.BaiduLoginPageCase" />
+      
+</testsuite>

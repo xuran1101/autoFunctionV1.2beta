@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="xrTestCase Suite" thread-count="1" verbose="1">
+  
+    <listeners>
+        <listener class-name="com.lkpower.listener.CaseRetryListener"></listener>
+        <listener class-name="com.lkpower.listener.CaseCollectionListener"></listener>
+    </listeners>
+    
+	<test name="xrTestCase-test">	
+		<classes>
+			<class name="com.lkpower.testcase.XrTestCase"></class>		
+		</classes>		
+	</test>
+</suite>

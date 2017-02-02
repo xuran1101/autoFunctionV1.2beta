@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [autoFucntionTestV2.0_beta Suite]">
+  <listeners>
+    <listener class-name="com.lkpower.listener.CaseRetryListener"/>
+    <listener class-name="com.lkpower.listener.CaseCollectionListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="autoFucntionTestV2.0_beta-smokeTest(failed)">
+    <groups>
+      <run>
+        <include name="smoke-test"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.lkpower.testcase.BaiduLoginPageCase">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod2"/>
+          <include name="beforeMethod2"/>
+        </methods>
+      </class> <!-- com.lkpower.testcase.BaiduLoginPageCase -->
+      <class name="com.lkpower.testcase.BaiduMainPageCase">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod2"/>
+          <include name="beforeMethod2"/>
+          <include name="testcase001"/>
+        </methods>
+      </class> <!-- com.lkpower.testcase.BaiduMainPageCase -->
+    </classes>
+  </test> <!-- autoFucntionTestV2.0_beta-smokeTest(failed) -->
+  <test name="autoFunctionTest_v1.2_fullTest(failed)">
+    <classes>
+      <class name="com.lkpower.testcase.BaiduLoginPageCase">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod2"/>
+          <include name="beforeMethod2"/>
+        </methods>
+      </class> <!-- com.lkpower.testcase.BaiduLoginPageCase -->
+      <class name="com.lkpower.testcase.BaiduMainPageCase">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod2"/>
+          <include name="beforeMethod2"/>
+          <include name="testcase001"/>
+        </methods>
+      </class> <!-- com.lkpower.testcase.BaiduMainPageCase -->
+    </classes>
+  </test> <!-- autoFunctionTest_v1.2_fullTest(failed) -->
+</suite> <!-- Failed suite [autoFucntionTestV2.0_beta Suite] -->

@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-autoFucntionTestV2.0_beta_Suite">
+              <span class="suite-name border-failed">autoFucntionTestV2.0_beta Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-autoFucntionTestV2.0_beta_Suite">
+                    <span>F:\ZDH\workspace\autoFunctionTestV1.2\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-autoFucntionTestV2.0_beta_Suite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-autoFucntionTestV2.0_beta_Suite">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-autoFucntionTestV2.0_beta_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-autoFucntionTestV2.0_beta_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-autoFucntionTestV2.0_beta_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-autoFucntionTestV2.0_beta_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods, 2 failed,  2 skipped,  8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-autoFucntionTestV2.0_beta_Suite" class="hide-methods failed suite-autoFucntionTestV2.0_beta_Suite"> (hide)</a> <!-- hide-methods failed suite-autoFucntionTestV2.0_beta_Suite -->
+                      <a href="#" panel-name="suite-autoFucntionTestV2.0_beta_Suite" class="show-methods failed suite-autoFucntionTestV2.0_beta_Suite"> (show)</a> <!-- show-methods failed suite-autoFucntionTestV2.0_beta_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-autoFucntionTestV2.0_beta_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-autoFucntionTestV2.0_beta_Suite" title="com.lkpower.testcase.BaiduMainPageCase" hash-for-method="testcase001">testcase001</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-autoFucntionTestV2.0_beta_Suite" title="com.lkpower.testcase.BaiduMainPageCase" hash-for-method="testcase001">testcase001</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-autoFucntionTestV2.0_beta_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-autoFucntionTestV2.0_beta_Suite" class="hide-methods skipped suite-autoFucntionTestV2.0_beta_Suite"> (hide)</a> <!-- hide-methods skipped suite-autoFucntionTestV2.0_beta_Suite -->
+                      <a href="#" panel-name="suite-autoFucntionTestV2.0_beta_Suite" class="show-methods skipped suite-autoFucntionTestV2.0_beta_Suite"> (show)</a> <!-- show-methods skipped suite-autoFucntionTestV2.0_beta_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-autoFucntionTestV2.0_beta_Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-autoFucntionTestV2.0_beta_Suite" title="com.lkpower.testcase.BaiduMainPageCase" hash-for-method="testcase001">testcase001</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-autoFucntionTestV2.0_beta_Suite" title="com.lkpower.testcase.BaiduMainPageCase" hash-for-method="testcase001">testcase001</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-autoFucntionTestV2.0_beta_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-autoFucntionTestV2.0_beta_Suite" class="hide-methods passed suite-autoFucntionTestV2.0_beta_Suite"> (hide)</a> <!-- hide-methods passed suite-autoFucntionTestV2.0_beta_Suite -->
+                      <a href="#" panel-name="suite-autoFucntionTestV2.0_beta_Suite" class="show-methods passed suite-autoFucntionTestV2.0_beta_Suite"> (show)</a> <!-- show-methods passed suite-autoFucntionTestV2.0_beta_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-autoFucntionTestV2.0_beta_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-autoFucntionTestV2.0_beta_Suite" title="com.lkpower.testcase.BaiduLoginPageCase" hash-for-method="testOnlyPassword">testOnlyPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-autoFucntionTestV2.0_beta_Suite" title="com.lkpower.testcase.BaiduLoginPageCase" hash-for-method="testOnlyPassword">testOnlyPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-autoFucntionTestV2.0_beta_Suite" title="com.lkpower.testcase.BaiduLoginPageCase" hash-for-method="testOnlyUsername">testOnlyUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-autoFucntionTestV2.0_beta_Suite" title="com.lkpower.testcase.BaiduLoginPageCase" hash-for-method="testOnlyUsername">testOnlyUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-autoFucntionTestV2.0_beta_Suite" title="com.lkpower.testcase.BaiduLoginPageCase" hash-for-method="testUsernamePasswdError">testUsernamePasswdError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-autoFucntionTestV2.0_beta_Suite" title="com.lkpower.testcase.BaiduLoginPageCase" hash-for-method="testWithoutUserNameAndPwd">testWithoutUserNameAndPwd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-autoFucntionTestV2.0_beta_Suite" title="com.lkpower.testcase.BaiduMainPageCase" hash-for-method="testcase002">testcase002</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-autoFucntionTestV2.0_beta_Suite" title="com.lkpower.testcase.BaiduMainPageCase" hash-for-method="testcase002">testcase002</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-autoFucntionTestV2.0_beta_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-autoFucntionTestV2.0_beta_Suite" class="panel autoFucntionTestV2.0_beta_Suite">
+          <div class="suite-autoFucntionTestV2.0_beta_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.lkpower.testcase.BaiduMainPageCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase001">
+                  </a> <!-- testcase001 -->
+                  <span class="method-name">testcase001</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.lkpower.testcase.BaiduMainPageCase.testcase001(BaiduMainPageCase.java:40)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(case1-输入正确的关键字进行测试 )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase001">
+                  </a> <!-- testcase001 -->
+                  <span class="method-name">testcase001</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.lkpower.testcase.BaiduMainPageCase.testcase001(BaiduMainPageCase.java:40)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(case1-输入正确的关键字进行测试 )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-autoFucntionTestV2.0_beta_Suite-class-failed -->
+          <div class="suite-autoFucntionTestV2.0_beta_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.lkpower.testcase.BaiduMainPageCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase001">
+                  </a> <!-- testcase001 -->
+                  <span class="method-name">testcase001</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.lkpower.testcase.BaiduMainPageCase.testcase001(BaiduMainPageCase.java:40)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(case1-输入正确的关键字进行测试 )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase001">
+                  </a> <!-- testcase001 -->
+                  <span class="method-name">testcase001</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.lkpower.testcase.BaiduMainPageCase.testcase001(BaiduMainPageCase.java:40)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(case1-输入正确的关键字进行测试 )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-autoFucntionTestV2.0_beta_Suite-class-skipped -->
+          <div class="suite-autoFucntionTestV2.0_beta_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.lkpower.testcase.BaiduMainPageCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase002">
+                  </a> <!-- testcase002 -->
+                  <span class="method-name">testcase002</span>
+                  <em>
+(case2-不输入关键字进行测试 )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase002">
+                  </a> <!-- testcase002 -->
+                  <span class="method-name">testcase002</span>
+                  <em>
+(case2-不输入关键字进行测试 )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-autoFucntionTestV2.0_beta_Suite-class-passed -->
+          <div class="suite-autoFucntionTestV2.0_beta_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.lkpower.testcase.BaiduLoginPageCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOnlyPassword">
+                  </a> <!-- testOnlyPassword -->
+                  <span class="method-name">testOnlyPassword</span>
+                  <em>
+(case3-仅输入密码，不输入用户名登录)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOnlyPassword">
+                  </a> <!-- testOnlyPassword -->
+                  <span class="method-name">testOnlyPassword</span>
+                  <em>
+(case3-仅输入密码，不输入用户名登录)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOnlyUsername">
+                  </a> <!-- testOnlyUsername -->
+                  <span class="method-name">testOnlyUsername</span>
+                  <em>
+(case2-仅输入用户名，不输入密码登录)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOnlyUsername">
+                  </a> <!-- testOnlyUsername -->
+                  <span class="method-name">testOnlyUsername</span>
+                  <em>
+(case2-仅输入用户名，不输入密码登录)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUsernamePasswdError">
+                  </a> <!-- testUsernamePasswdError -->
+                  <span class="method-name">testUsernamePasswdError</span>
+                  <em>
+(case1-输入错误的用户名和密码登录)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithoutUserNameAndPwd">
+                  </a> <!-- testWithoutUserNameAndPwd -->
+                  <span class="method-name">testWithoutUserNameAndPwd</span>
+                  <em>
+(case4-用户名密码都不输入点击登录)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-autoFucntionTestV2.0_beta_Suite-class-passed -->
+        </div> <!-- panel autoFucntionTestV2.0_beta_Suite -->
+        <div panel-name="test-xml-autoFucntionTestV2.0_beta_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\ZDH\workspace\autoFunctionTestV1.2\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;autoFucntionTestV2.0_beta Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.lkpower.listener.CaseRetryListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.lkpower.listener.CaseCollectionListener&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;autoFucntionTestV2.0_beta-smokeTest&quot;&gt;
+    &lt;groups&gt;
+      &lt;define name=&quot;full-test&quot;&gt;
+        &lt;include name=&quot;P0&quot;/&gt;
+        &lt;include name=&quot;P1&quot;/&gt;
+      &lt;/define&gt; &lt;!-- full-test --&gt;
+      &lt;define name=&quot;smoke-test&quot;&gt;
+        &lt;include name=&quot;P0&quot;/&gt;
+      &lt;/define&gt; &lt;!-- smoke-test --&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;smoke-test&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.lkpower.testcase.BaiduMainPageCase&quot;/&gt;
+      &lt;class name=&quot;com.lkpower.testcase.BaiduLoginPageCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- autoFucntionTestV2.0_beta-smokeTest --&gt;
+  &lt;test name=&quot;autoFunctionTest_v1.2_fullTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.lkpower.testcase.BaiduMainPageCase&quot;/&gt;
+      &lt;class name=&quot;com.lkpower.testcase.BaiduLoginPageCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- autoFunctionTest_v1.2_fullTest --&gt;
+&lt;/suite&gt; &lt;!-- autoFucntionTestV2.0_beta Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-autoFucntionTestV2.0_beta_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for autoFucntionTestV2.0_beta Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">autoFucntionTestV2.0_beta-smokeTest (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">autoFunctionTest_v1.2_fullTest (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-autoFucntionTestV2.0_beta_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for autoFucntionTestV2.0_beta Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">P0</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testOnlyPassword</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testOnlyUsername</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testcase001</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testcase002</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">P1</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testUsernamePasswdError</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-autoFucntionTestV2.0_beta_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for autoFucntionTestV2.0_beta Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_autoFucntionTestV2.0_beta_Suite');
+function tableData_autoFucntionTestV2.0_beta_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testcase001')
+data.setCell(0, 2, 'com.lkpower.testcase.BaiduMainPageCase')
+data.setCell(0, 3, 2398);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testcase001')
+data.setCell(1, 2, 'com.lkpower.testcase.BaiduMainPageCase')
+data.setCell(1, 3, 2328);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testcase001')
+data.setCell(2, 2, 'com.lkpower.testcase.BaiduMainPageCase')
+data.setCell(2, 3, 2309);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testcase001')
+data.setCell(3, 2, 'com.lkpower.testcase.BaiduMainPageCase')
+data.setCell(3, 3, 2298);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testUsernamePasswdError')
+data.setCell(4, 2, 'com.lkpower.testcase.BaiduLoginPageCase')
+data.setCell(4, 3, 1898);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testcase002')
+data.setCell(5, 2, 'com.lkpower.testcase.BaiduMainPageCase')
+data.setCell(5, 3, 394);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testcase002')
+data.setCell(6, 2, 'com.lkpower.testcase.BaiduMainPageCase')
+data.setCell(6, 3, 346);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testOnlyPassword')
+data.setCell(7, 2, 'com.lkpower.testcase.BaiduLoginPageCase')
+data.setCell(7, 3, 301);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testOnlyUsername')
+data.setCell(8, 2, 'com.lkpower.testcase.BaiduLoginPageCase')
+data.setCell(8, 3, 293);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testOnlyPassword')
+data.setCell(9, 2, 'com.lkpower.testcase.BaiduLoginPageCase')
+data.setCell(9, 3, 285);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testOnlyUsername')
+data.setCell(10, 2, 'com.lkpower.testcase.BaiduLoginPageCase')
+data.setCell(10, 3, 278);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testWithoutUserNameAndPwd')
+data.setCell(11, 2, 'com.lkpower.testcase.BaiduLoginPageCase')
+data.setCell(11, 3, 153);
+window.suiteTableData['autoFucntionTestV2.0_beta_Suite']= { tableData: data, tableDiv: 'times-div-autoFucntionTestV2.0_beta_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
+              <div id="times-div-autoFucntionTestV2.0_beta_Suite">
+              </div> <!-- times-div-autoFucntionTestV2.0_beta_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-autoFucntionTestV2.0_beta_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for autoFucntionTestV2.0_beta Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-autoFucntionTestV2.0_beta_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.lkpower.testcase.BaiduLoginPageCase</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testWithoutUserNameAndPwd</span>
+                <br/>
+                <span class="ignored-method-name">testUsernamePasswdError</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-autoFucntionTestV2.0_beta_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.lkpower.testcase.BaiduMainPageCase</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod2</span>
+                <span class="method-start">2592 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase001</span>
+                <span class="method-start">4887 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">7217 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">10053 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod2</span>
+                <span class="method-start">12218 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase001</span>
+                <span class="method-start">13523 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">15922 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">18639 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod2</span>
+                <span class="method-start">20821 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testcase001</span>
+                <span class="method-start">21840 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">25449 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">28127 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod2</span>
+                <span class="method-start">30244 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase002</span>
+                <span class="method-start">31293 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">31689 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.lkpower.testcase.BaiduLoginPageCase</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">34388 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod2</span>
+                <span class="method-start">36552 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testOnlyPassword</span>
+                <span class="method-start">39986 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">40273 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">43009 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod2</span>
+                <span class="method-start">45150 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testOnlyUsername</span>
+                <span class="method-start">48602 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">48882 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.lkpower.testcase.BaiduMainPageCase</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">51613 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod2</span>
+                <span class="method-start">53762 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testcase001</span>
+                <span class="method-start">55552 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">59083 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">61755 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod2</span>
+                <span class="method-start">63936 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase002</span>
+                <span class="method-start">65068 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">65416 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.lkpower.testcase.BaiduLoginPageCase</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">68071 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod2</span>
+                <span class="method-start">70204 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testOnlyPassword</span>
+                <span class="method-start">73631 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">73935 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">76643 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod2</span>
+                <span class="method-start">78796 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testOnlyUsername</span>
+                <span class="method-start">81960 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">82255 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">85049 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod2</span>
+                <span class="method-start">87207 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUsernamePasswdError</span>
+                <span class="method-start">90400 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">92299 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">95024 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod2</span>
+                <span class="method-start">97679 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testWithoutUserNameAndPwd</span>
+                <span class="method-start">100764 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">100918 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

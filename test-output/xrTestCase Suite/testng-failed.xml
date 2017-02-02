@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [xrTestCase Suite]">
+  <listeners>
+    <listener class-name="com.lkpower.listener.CaseRetryListener"/>
+    <listener class-name="com.lkpower.listener.CaseCollectionListener"/>
+  </listeners>
+  <test name="xrTestCase-test">
+    <classes>
+      <class name="com.lkpower.testcase.XrTestCase"/>
+    </classes>
+  </test> <!-- xrTestCase-test -->
+</suite> <!-- Failed suite [xrTestCase Suite] -->
