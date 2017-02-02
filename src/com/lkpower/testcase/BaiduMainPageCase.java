@@ -1,4 +1,4 @@
-package com.lkpower.testcase;
+﻿package com.lkpower.testcase;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -37,7 +37,7 @@ public class BaiduMainPageCase extends BaseTest{
 		baiduMainPage.sendKeys("Hello 2017");
 		baiduMainPage.click();
 		Thread.sleep(2000);
-		Assert.assertTrue(driver.getTitle().contains("Hello 992017"));
+		Assert.assertTrue(driver.getTitle().contains("Hello 2017"));
 		
 	}
 	
